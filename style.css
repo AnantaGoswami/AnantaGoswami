@@ -163,7 +163,7 @@ header {
 }
 
 .container {
-  background-color: pink;
+  background-color: white;
   width: 100%;
 }
 
@@ -176,7 +176,8 @@ header {
 .container ul {
   list-style-type: none;
   display: inline-block;
-  padding: 0;
+  padding-left: 175px;
+  margin: 0;
 }
 
 .container li {
@@ -184,17 +185,22 @@ header {
 }
 
 .container a {
-  color: grey;
+  color: #c1c1c1;
   padding: 14px 16px;
   display: block;
   float: left;
   text-align: center;
   text-decoration: none;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #c1c1c1;
   margin: 12px;
+  font-weight: bold;
 }
 
 .container a:hover {
-  background-color: red;
   border-bottom: 2px solid grey;
+}
+
+#contributers {
+  color: #1778bd;
+  border-bottom: 2px solid #1778bd;
 }
