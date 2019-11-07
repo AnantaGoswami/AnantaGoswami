@@ -55,7 +55,14 @@ header {
   float: right;
   margin: auto;
   margin-top: 6px;
-  transform: translate(24px, 2px);
+}
+
+#bell {
+  margin-left: 70px;
+}
+
+#envelope {
+  margin-left: 30px;
 }
 
 .navbar a {
